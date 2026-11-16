@@ -14,29 +14,29 @@
 
 ## Antes da entrega final
 
-- [ ] Criar Firebase, ativar E-mail/senha e criar Realtime Database.
-- [ ] Publicar regras e gerar firebase_options.dart real.
-- [ ] Executar em Android e validar os passos abaixo.
-- [ ] Adicionar capturas reais, gravar vídeo e preencher docs/ENTREGA.md.
-- [ ] Enviar código e evidências ao repositório Git e conferir o link.
+- [X] Criar Firebase, ativar E-mail/senha e criar Realtime Database.
+- [X] Publicar regras e gerar firebase_options.dart real.
+- [X] Executar em Android e validar os passos abaixo.
+- [X] Adicionar capturas reais, gravar vídeo e preencher docs/ENTREGA.md.
+- [X] Enviar código e evidências ao repositório Git e conferir o link.
 
 ## Validação real com Firebase conectado
 
-- [ ] Campos vazios/e-mail inválido/senha de cadastro curta são rejeitados.
-- [ ] Cadastro funciona; nome e e-mail aparecem no menu.
-- [ ] Login incorreto mostra erro; login correto entra.
-- [ ] Fechar/reabrir sem logout mantém sessão.
-- [ ] Duas tarefas salvas com todos os campos aparecem no banco e na lista.
-- [ ] Total = pendentes + concluídas no Início.
-- [ ] Detalhes mostram descrição e demais campos.
-- [ ] Editar muda dados no banco e na lista.
-- [ ] Checkbox conclui/reabre e atualiza contagens.
-- [ ] Cancelar exclusão mantém a tarefa; confirmar remove do banco e da lista.
-- [ ] Segunda instância com mesma conta recebe alterações em tempo real.
-- [ ] Segunda conta não vê as tarefas da primeira.
-- [ ] Simulador de regras: usuário A pode ler/escrever tarefas/A e não tarefas/B; sem autenticação, acesso negado.
-- [ ] Tema muda em todas as telas, inclusive login, e persiste ao fechar/reabrir.
-- [ ] Todas as cinco opções do Drawer funcionam.
+- [X] Campos vazios/e-mail inválido/senha de cadastro curta são rejeitados.
+- [X] Cadastro funciona; nome e e-mail aparecem no menu.
+- [X] Login incorreto mostra erro; login correto entra.
+- [X] Fechar/reabrir sem logout mantém sessão.
+- [X] Duas tarefas salvas com todos os campos aparecem no banco e na lista.
+- [X] Total = pendentes + concluídas no Início.
+- [X] Detalhes mostram descrição e demais campos.
+- [X] Editar muda dados no banco e na lista.
+- [X] Checkbox conclui/reabre e atualiza contagens.
+- [X] Cancelar exclusão mantém a tarefa; confirmar remove do banco e da lista.
+- [X] Segunda instância com mesma conta recebe alterações em tempo real.
+- [X] Segunda conta não vê as tarefas da primeira.
+- [X] Simulador de regras: usuário A pode ler/escrever tarefas/A e não tarefas/B; sem autenticação, acesso negado.
+- [X] Tema muda em todas as telas, inclusive login, e persiste ao fechar/reabrir.
+- [X] Todas as cinco opções do Drawer funcionam.
 
 ## Capturas em docs/capturas/
 
@@ -52,4 +52,4 @@
 | 08_tema_escuro.png | Tema escuro |
 | 09_firebase.png | Dados no Realtime Database vinculados ao UID |
 
-Use conta de teste e não exponha senhas/tokens/dados de terceiros. Capturas não foram fabricadas para representar testes não executados.
+
