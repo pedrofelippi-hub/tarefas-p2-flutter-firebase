@@ -1,0 +1,21 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "tarefas": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid",
+        "$id": {
+          ".validate": "newData.hasChildren(['titulo', 'descricao', 'dataVencimento', 'prioridade', 'concluida'])",
+          "titulo": { ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 120" },
+          "descricao": { ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 2000" },
+          "dataVencimento": { ".validate": "newData.isString() && newData.val().length >= 10" },
+          "prioridade": { ".validate": "newData.val() === 'baixa' || newData.val() === 'media' || newData.val() === 'alta'" },
+          "concluida": { ".validate": "newData.isBoolean()" },
+          "$outros": { ".validate": false }
+        }
+      }
+    }
+  }
+}

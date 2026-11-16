@@ -1,0 +1,34 @@
+{
+  "data": "2026-11-16",
+  "metodo": "API REST oficial; não substitui demonstração no aplicativo",
+  "resultados": [
+    {
+      "teste": "criar",
+      "status": 200
+    },
+    {
+      "teste": "consultar",
+      "status": 200
+    },
+    {
+      "teste": "editar",
+      "status": 200
+    },
+    {
+      "teste": "bloquear_outro_usuario",
+      "status": 401
+    },
+    {
+      "teste": "bloquear_sem_login",
+      "status": 401
+    },
+    {
+      "teste": "excluir",
+      "status": 200
+    },
+    {
+      "teste": "login_novamente",
+      "status": 200
+    }
+  ]
+}

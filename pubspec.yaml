@@ -1,0 +1,21 @@
+name: tarefas_p2
+description: Gerenciador de tarefas com Flutter e Firebase para a P2.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  firebase_database: ^12.0.0
+  shared_preferences: ^2.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
